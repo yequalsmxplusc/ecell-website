@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Header from '@/app/components/header/Header'
 import Footer from "@/app/components/footer/Footer";
+import Header from '../components/header/header';
 
 export default function eweekend() {
   return (

@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from '@/app/components/header/Header'
-import Footer from "@/app/components/footer/Footer";
+import Footer from "../components/footer/Footer";
+import Header from '../components/header/header';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <title>E-Summit | E-Cell</title>
       </Head>
 
-      <Header />
+      <Header/>
 
       <main className="bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4 py-8">

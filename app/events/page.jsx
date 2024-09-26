@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '@/app/components/header/Header';
 import Footer from "@/app/components/footer/Footer";
 import Head from 'next/head';
+import Header from '../components/header/header';
 
 
 
@@ -41,7 +41,7 @@ const Event = () => {
     <title>Hult Prize OnCampus | E-Cell</title>
     </Head>
       <div>
-        <Header />
+        <Header/>
 
         {/* Section 1 */}
         <section className="bg-white dark:bg-gray-900 pt-16">
